@@ -1,0 +1,51 @@
+section{position: relative;}
+
+
+.carousel-inner{
+    img{
+    height: 80vh;
+    object-fit: cover;
+    
+}
+}
+.carousel-item .carousel-caption {
+  position: absolute;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  top: 220px;
+  .btn {
+    padding: 10px 27px;
+  }
+}
+
+.carousel-item .carousel-caption h2 {
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+}
+
+.carousel-item .carousel-caption p {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  margin: 10px;
+}
+
+.carousel-item {
+  width: 100%;
+  position: relative;
+
+  img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

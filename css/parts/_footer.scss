@@ -1,0 +1,131 @@
+#coaching {
+  background-color: $helper-color1;
+  width: 100%;
+  padding: 50px;
+  color: $helper-color2;  
+}
+
+#footer-info {
+  padding: 100px 0;
+  background-color: #343a40;
+  color: $helper-color2;
+
+  a {
+    text-decoration: none;
+    color: $helper-color2;
+
+    &:hover {
+      color: $helper-color1;
+      transition: 0.3s;
+    }
+  }
+  ul {
+    padding: 0;
+  }
+  .contact_info {
+    img {
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .widget_links {
+    li {
+      margin: 10px 0;
+      transition: all 0.4s;
+      &:hover {
+        padding:0 0 0 8px;
+      }
+      
+    }
+  }
+
+  .recent-posts {
+    .item {
+      position: relative;
+      margin-bottom: 10px;
+
+      .link {
+        width: 190px;
+        position: absolute;
+
+        top: 0;
+        left: 60px;
+        padding: 0 10px;
+
+        p {
+          margin-bottom: 0;
+          font-size: 12px;
+
+          &:first-child {
+            font-size: 13px;
+            margin-bottom: 5px;
+          }
+
+          &:last-child {
+            color: gray;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  .newsletter_form {
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      height: 28px;
+      width: 35px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.116);
+      text-align: center;
+
+      cursor: pointer;
+    }
+
+    form {
+      position: relative;
+
+      button {
+        position: absolute;
+        right: 2px;
+        top: 2px;
+      }
+    }
+  }
+}
+#privacy-policy {
+  padding: 30px 0px 15px;
+  background-color: #212427;
+  color: $helper-color2;
+
+  .terms {
+      
+      margin-left: 228px;
+      ul {
+
+             list-style: none;
+             margin-left: 10px;
+
+          li {
+              display: inline-block;
+              margin-left: 10px;
+
+              a{
+                  text-decoration-line:none;
+                  color: $helper-color2;
+
+                  &:hover {
+                      color: $helper-color1;
+                      transition: 0.5s;
+                  
+                  }
+              }
+          }
+      }
+  }
+}

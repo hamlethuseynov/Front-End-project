@@ -1,0 +1,50 @@
+#onlinecourse{
+    width: 100%;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color:rgba(4, 37, 73, 0.9);;
+    }
+    .register_form {
+        background-color: rgba(255,255,255,0.1);
+        
+    }
+    .radius_all_10 {
+        border-radius: 10px;
+    }
+    .padding_eight_all {
+        padding: 8%;
+    }
+
+    h2{
+        color: $helper-color2;
+        span{
+            color: $helper-color1;
+         }
+    }
+    p{
+        color:$helper-color2;
+    }
+    input::placeholder {
+        color: $helper-color2;
+      }
+      textarea::placeholder{
+        color: $helper-color2;
+      }
+      .form-control{
+        color: $helper-color2;
+      }
+      .form-control{
+          background-color: #07294D;;
+          background-color: rgba(255, 255, 255, 0.1);
+      }
+}

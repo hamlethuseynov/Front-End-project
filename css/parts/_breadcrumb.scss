@@ -1,0 +1,29 @@
+#breadcrumb {
+    background-image: url("../img/about_bg.jpg");
+    background: cover;
+    background-position: center;
+    
+    
+    .container-fluid {
+      padding: 100px 0;
+      background-color: rgba(0, 0, 0, 0.432);
+      a {
+        color: white;
+        transition: 0.5s;
+        &:hover{
+            text-decoration: none;
+            color: $helper-color1;
+        }
+      }
+      h2{
+        color: $helper-color2;
+        
+      }
+      h6 {
+        color: $helper-color2;
+        line-height: 40px;
+      }
+
+    }
+  }
+  

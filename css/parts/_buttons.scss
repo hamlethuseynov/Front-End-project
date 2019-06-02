@@ -1,0 +1,83 @@
+li {
+  a {
+    i {
+      @include transition(all 0.5s);
+      &:hover {
+        color: $helper-color1 !important;
+      }
+    }
+    
+    @include transition(all 0.5s);
+    &:hover {
+      color: $helper-color1 !important;
+    }
+  }
+}
+
+.btn-outline-secondary {
+  
+  color: $helper-color2;
+  border: 1px solid $helper-color2;
+  padding: 3px 10px;
+  position: relative; 
+  overflow: hidden;
+    
+    
+    background: linear-gradient( to left, #ebebeb00 50%,     rgba(255, 255, 255, 0.979) 50% );
+	background-size: 200% 100%;
+	background-position: right bottom;
+    cursor: pointer;
+    transition: all ease .5s;
+    
+    &:hover {
+        background-position: left bottom;
+        color: $helper-color1;
+        border: 1px solid $helper-color2;
+    }
+}
+
+
+.btn-warning {
+  @include transition(all 0.5s);
+  &:hover {
+    background-color: $button-bg-color !important;
+  }
+}
+
+.btn-warning {
+  background-color: $helper-color1;
+  color: $dark-color;
+  border-color: $helper-color1;
+  position: relative;
+  overflow: hidden;
+  padding: 4px 10px;
+  
+
+  &::before {
+    content: "";    
+    left: -40px;
+    z-index: 10;
+    height: 250px;
+    width: 25px;
+    top: -100px;
+    transform: skewX(-35deg);
+    background-color: rgba(221, 220, 220, 0.644);
+    position: absolute;    
+  }
+
+  &:hover {
+    color: $dark-color;   
+    
+
+    &::before {
+      overflow: hidden;
+      transform: skewX(-30deg);
+      transform: translate(1000px, 500px);
+      transition: 3s;
+    }
+
+    
+    
+    background-color: $button-bg-color;
+  }
+}

@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+@media screen and (max-width: 600px) {
+    #aboutus{display: none;
+      .container {
+        display: none;
+      }
+    } 
+}
+
+  @media screen and (max-width: 600px) {
+    #onlinecourse{display: none;
+      .container {
+        display: none;
+      }
+    } 
+  }
+
+  @media screen and (max-width: 600px) {
+    #parallax{display: none;
+      .container {
+        display: none;
+      }
+    } 
+  }

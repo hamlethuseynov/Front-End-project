@@ -1,0 +1,102 @@
+#alert-box {
+  .alert-info {
+    padding: 15px;
+    font-weight: 700;
+    color: $helper-color2;
+    background-color: $alert-color;
+
+    a {
+      color: $helper-color2;
+      text-decoration-line: underline;
+    }
+    i {
+      cursor: pointer;
+      font-size: 18px;
+    }
+  }
+}
+
+// Welcome section
+
+#welcome {
+  background-color: #343a40 !important;
+  color: $helper-color2;
+  padding: 10px;
+
+  a {
+    color: $helper-color2;
+  }
+
+  .contacts a {
+    margin-right: 10px;
+
+    i {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      margin-left: 6px;
+
+      i {
+        font-size: 14px;
+        margin-right: 10px;
+      }
+
+      a {
+        font-size: 14px;
+      }
+      .btn-default {
+        margin-left: 10px;
+      }
+    }
+  }
+  .ul-border {
+    position: relative;
+  }
+  .ul-border:before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 4px;
+    height: 23px;
+    width: 1px;
+    background-color: #eee;
+  }
+}
+
+// Navbar section
+
+#navigation {
+  background-color: $helper-color2;
+  .collapse {
+    text-align: right;
+  }
+  .navbar-nav {
+    .nav-item {
+      font-weight: 700;
+      font-size: 14px;
+        span {
+          color: $helper-color1;
+        }
+        i {
+          font-size: 16px;
+        }
+        a {
+          color: $dark-color;
+        }
+      }
+    }
+  }
+  

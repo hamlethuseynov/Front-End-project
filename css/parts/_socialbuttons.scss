@@ -1,0 +1,27 @@
+.btn-facebook {
+  background-color: $facebook-color;
+  color: $helper-color2;
+  border-color: $facebook-color;
+  padding: 12px 20px;
+  margin-right: 6px;
+  &:hover {
+    background-color: $facebook-hover;
+    border-color: $facebook-hover;
+    color: $helper-color2;
+  }
+}
+
+.btn-google {
+  background-color: $google-color;
+  color: $helper-color2;
+  border-color: $google-color;
+  padding: 12px 20px;
+}
+
+.btn-google:hover {
+  background-color: $google-hover;
+  border-color: $google-hover;
+  color: $helper-color2;
+}
+
+

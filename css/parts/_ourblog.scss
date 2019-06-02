@@ -1,0 +1,108 @@
+#ourblog {
+    padding: 100px 0px;
+    background-color: #f7f7f7;
+    
+    button {
+        margin-top: 60px;
+        padding: 10px 30px;
+
+        i{
+            margin-left: 10px;
+        }
+    }
+
+    .card {
+        margin: 0;
+        width: 350px;
+        border-radius: 15px;
+        overflow: hidden;
+        border: none;
+        box-shadow: 0 0 10px rgb(184, 179, 179);
+
+
+        .card-img-top {
+            position: relative;
+            overflow: hidden; 
+            
+            
+        }
+        .card-body {
+
+            padding: 15px;
+
+            a{
+                text-decoration: none;
+                color: $dark-color;
+
+                h5{
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    color: $helper-color1;
+                    transition: 0.5s;
+                }
+            }
+
+            p {
+                color: gray;
+                font-size: 15px;
+            }
+
+            
+        }
+        .card-footer {
+
+            padding: 15px;
+            background-color: $helper-color2;
+
+            ul{
+
+                list-style: none;
+                padding: 0;
+                margin-bottom: 0;
+
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+
+                    a {
+                        text-decoration: none;
+                        color: gray;
+                        font-size: 14px;
+
+                        i {
+                            color: $helper-color1;
+                            margin-right: 5px;
+                        }
+
+                        &:hover {
+                            color: $helper-color1;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            .card-img-top {
+
+                &:before {
+                    
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.603);
+                }
+            }
+        }
+    }
+
+    
+}
+#ourclient {
+    padding: 100px;
+}

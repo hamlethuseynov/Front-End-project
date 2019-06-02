@@ -1,0 +1,35 @@
+#gallery {
+  .gallery-item {
+    .item {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  img {
+    border-radius: 10px;
+  }
+  padding-bottom: 100px;
+  .gallery-menu {
+    text-align: center;
+    transition: all 0.5s;
+    .active {
+      background-color: $helper-color1;
+      color: $helper-color2;
+    }
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+    border: 1px solid rgb(235, 235, 235);
+    color: $dark-color;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: #f7f7f7;
+
+    &:hover {
+      background-color: $helper-color1;
+      color: $helper-color2;
+    }
+  }
+}
