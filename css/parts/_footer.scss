@@ -10,7 +10,6 @@
   padding: 100px 0;
   background-color: #343a40;
   color: $helper-color2;
-
   a {
     text-decoration: none;
     color: $helper-color2;
@@ -27,12 +26,10 @@
     img {
       margin-bottom: 15px;
     }
-
     li {
       margin-bottom: 10px;
     }
   }
-
   .widget_links {
     li {
       margin: 10px 0;
@@ -40,7 +37,6 @@
       &:hover {
         padding:0 0 0 8px;
       }
-      
     }
   }
 
@@ -48,7 +44,6 @@
     .item {
       position: relative;
       margin-bottom: 10px;
-
       .link {
         width: 190px;
         position: absolute;
@@ -56,7 +51,6 @@
         top: 0;
         left: 60px;
         padding: 0 10px;
-
         p {
           margin-bottom: 0;
           font-size: 12px;
@@ -65,7 +59,6 @@
             font-size: 13px;
             margin-bottom: 5px;
           }
-
           &:last-child {
             color: gray;
             font-weight: bold;
@@ -84,7 +77,6 @@
       border-radius: 5px;
       background-color: rgba(255, 255, 255, 0.116);
       text-align: center;
-
       cursor: pointer;
     }
 
@@ -109,7 +101,6 @@
       
       margin-left: 228px;
       ul {
-
              list-style: none;
              margin-left: 10px;
 
